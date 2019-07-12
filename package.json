@@ -1,0 +1,16 @@
+{
+  "name": "animation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch:sass": "node-sass box.scss styles.css -w"
+  },
+  "author": "Tsahai Clahar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^4.12.0",
+    "serve-static": "^1.14.1"
+  }
+}
