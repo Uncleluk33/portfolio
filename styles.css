@@ -336,19 +336,19 @@ body {
 .ani-box1 {
   animation-name: move-up;
   animation-duration: 1s;
-  animation-delay: .2s;
+  animation-delay: 0s;
   animation-fill-mode: forwards; }
 
 .ani-box2 {
   animation-name: move-up;
-  animation-duration: 1.2s;
-  animation-delay: .5s;
+  animation-duration: 1.4s;
+  animation-delay: 0s;
   animation-fill-mode: forwards; }
 
 .ani-box3 {
   animation-name: move-up;
-  animation-duration: 1.4s;
-  animation-delay: .7s;
+  animation-duration: 1.9s;
+  animation-delay: 0s;
   animation-fill-mode: forwards; }
 
 .ani__skills-btn {
