@@ -9,7 +9,8 @@ html {
 body {
   box-sizing: border-box;
   padding-top: 2%;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  height: 100%; }
 
 .container {
   width: 80%;
@@ -72,7 +73,8 @@ body {
   position: absolute;
   transition: all 1s ease-in-out;
   opacity: 0;
-  visibility: hidden; }
+  visibility: hidden;
+  display: none; }
 
 .box-2 {
   width: 100%;
@@ -80,9 +82,9 @@ body {
   position: absolute;
   opacity: 0;
   transition: all 1s ease-in-out .5s;
-  display: block;
   visibility: hidden;
-  background: #fcfcfc; }
+  background: #fcfcfc;
+  display: none; }
   .box-2 .header {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -130,7 +132,7 @@ body {
   opacity: 0;
   visibility: hidden;
   transition: all 1s ease-in-out;
-  display: block; }
+  display: none; }
   .box-3 h1 {
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -325,7 +327,8 @@ body {
 
 .active {
   visibility: visible;
-  opacity: 1; }
+  opacity: 1;
+  display: block; }
 
 .active-link {
   border-bottom: 1px solid black; }
@@ -333,24 +336,24 @@ body {
 .ani-box1 {
   animation-name: move-up;
   animation-duration: 1s;
-  animation-delay: .3s;
+  animation-delay: .2s;
   animation-fill-mode: forwards; }
 
 .ani-box2 {
   animation-name: move-up;
-  animation-duration: 1s;
-  animation-delay: .4s;
+  animation-duration: 1.2s;
+  animation-delay: .5s;
   animation-fill-mode: forwards; }
 
 .ani-box3 {
   animation-name: move-up;
-  animation-duration: 1s;
-  animation-delay: .5s;
+  animation-duration: 1.4s;
+  animation-delay: .7s;
   animation-fill-mode: forwards; }
 
 .ani__skills-btn {
   animation-name: move-up;
-  animation-duration: 1s;
+  animation-duration: 1.6s;
   animation-delay: .9s;
   animation-fill-mode: forwards; }
 
